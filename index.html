@@ -15,6 +15,7 @@
 
 
 
+<!DOCTYPE html>
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
@@ -24,11 +25,8 @@
       background-color: black;
       color: white;
       font-family: Arial, sans-serif;
-      padding: 50px;
-    }
-
-    .content {
-      height: 2000px; /* Щоб було що прокручувати */
+      margin: 0;
+      height: 200vh; /* Робимо дві висоти екрану для скролу */
     }
 
     /* Кнопка вгору */
@@ -70,9 +68,6 @@
 </head>
 <body>
 
-  <div class="content">
-  </div>
-
   <!-- Кнопки -->
   <button class="scroll-up" onclick="scrollToTop()">⬆ Вгору</button>
   <button class="scroll-down" onclick="scrollToBottom()">⬇ Вниз</button>
@@ -89,3 +84,4 @@
   </script>
 </body>
 </html>
+
